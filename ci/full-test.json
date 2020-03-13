@@ -1,0 +1,62 @@
+[
+    {
+        "ParameterKey": "XLDeployPassword",
+        "ParameterValue": "$[taskcat_genpass_8A]"
+    },
+    {
+        "ParameterKey": "XLReleasePassword",
+        "ParameterValue": "$[taskcat_genpass_8A]"
+    },
+    {
+        "ParameterKey": "XLReleaseVersion",
+        "ParameterValue": "9.5"
+    },
+    {
+        "ParameterKey": "XLDeployVersion",
+        "ParameterValue": "9.5"
+    },
+    {
+        "ParameterKey": "AcceptEula",
+        "ParameterValue": "yes"
+    },
+    {
+        "ParameterKey": "RemoteAccessCIDR",
+        "ParameterValue": "0.0.0.0/0"
+    },
+    {
+        "ParameterKey": "AvailabilityZones",
+        "ParameterValue": "$[taskcat_genaz_2]"
+    },
+    {
+        "ParameterKey": "KeyPairName",
+        "ParameterValue": "agld-key-pair"
+    },
+    {
+        "ParameterKey": "DBMasterPassword",
+        "ParameterValue": "$[taskcat_genpass_8A]"
+    },
+    {
+        "ParameterKey": "XLDeployClusterMode",
+        "ParameterValue": "hot-standby"
+    },
+    {
+        "ParameterKey": "XLReleaseClusterMode",
+        "ParameterValue": "full"
+    },
+    {
+        "ParameterKey": "InstallXLRelease",
+        "ParameterValue": "true"
+    },
+    {
+        "ParameterKey": "InstallXLDeploy",
+        "ParameterValue": "true"
+    },
+    {
+        "ParameterKey": "XLDeployLicense",
+        "ParameterValue": "LS0tIExpY2Vuc2UgLS0tCkxpY2Vuc2UgdmVyc2lvbjogMwpQcm9kdWN0OiBYTCBEZXBsb3kKTGljZW5zZWQgdG86IFhlYmlhbGFicwpDb250YWN0OiBTdWthbnlhIFBhbGl3YWwgPHNwYWxpd2FsQHhlYmlhbGFicy5jb20+ClJlcG9zaXRvcnkgaWQ6IDE0OTQyZDExLTYyNmUtNGMwNy04MmRhLWNiYWVhNWJjOGVhMApFeHBpcmVzIGFmdGVyOiAyMDIwLTAzLTEyCkxpY2Vuc2VkIG51bWJlciBvZiBDSXM6IHhsLlNhdGVsbGl0ZT0xClN1cHBvcnQgcG9saWN5OiAxIG1vbnRoIG9mIHRlY2huaWNhbCBzdXBwb3J0CkVkaXRpb246IFRyaWFsCi0tLSBTaWduYXR1cmUgKFNIQTF3aXRoRFNBKSAtLS0KMzAyYzAyMTQ0MjEwNGVlNDY5NTNkOTE5MTZhNDY4ZDQyZDhmZTdhNWEyNTBmMjlkMDIxNDIzMjBhNmNmOTNmZDAzYjdjZDc4OTE0ODA2NGUKYzkzMTYxMGEwMDk3Ci0tLSBFbmQgb2YgU2lnbmF0dXJlIC0tLQo="
+    },
+    {
+        "ParameterKey": "XLReleaseLicense",
+        "ParameterValue": "LS0tIExpY2Vuc2UgLS0tCkxpY2Vuc2UgdmVyc2lvbjogMwpQcm9kdWN0OiBYTCBSZWxlYXNlCkxpY2Vuc2VkIHRvOiBYZWJpYWxhYnMKQ29udGFjdDogU3VrYW55YSBQYWxpd2FsIDxzcGFsaXdhbEB4ZWJpYWxhYnMuY29tPgpSZXBvc2l0b3J5IGlkOiA1YjUzOWI4Ny1hMGMwLTQ1NjMtOGMxYi1mMjc3NmQzYzc4ZjAKRXhwaXJlcyBhZnRlcjogMjAyMC0wMy0xMgpNYXhpbXVtIG51bWJlciBvZiB1c2VyczogMTAwClN1cHBvcnQgcG9saWN5OiAxIG1vbnRoIG9mIHRlY2huaWNhbCBzdXBwb3J0CkVkaXRpb246IFRyaWFsCi0tLSBTaWduYXR1cmUgKFNIQTF3aXRoRFNBKSAtLS0KMzAyZDAyMTUwMDg3N2ZjMmJkMGEwMzU0ODNiZGZiMGY5NmY5OGE5MTc0OWY0YmJjMTIwMjE0NmE4N2NhNjk0MjdiODM1Zjk0M2I1ZTIyM2IKNTc0NTkyNGVhYjQ1NWQKLS0tIEVuZCBvZiBTaWduYXR1cmUgLS0tCg=="
+    }
+]
