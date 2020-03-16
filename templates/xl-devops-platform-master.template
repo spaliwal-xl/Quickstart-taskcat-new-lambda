@@ -401,7 +401,8 @@ Resources:
     Properties:
       TemplateURL: !Sub 
         - >-
-          https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}templates/xl-devops-platform.template
+          #https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}templates/xl-devops-platform.template
+          https://agld-quickstart.s3.ap-south-1.amazonaws.com/xl-devops-platform.template
         - QSS3Region: !If 
             - GovCloudCondition
             - s3-us-gov-west-1
